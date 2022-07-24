@@ -142,7 +142,7 @@ export const singleProjectData = {
 			hasWebsite: false,
 			link: '',
 			description: 'Loan Disbursement automator build with puppeteer. Puppeteer is a Node library which provides a high-level API to control headless Chrome or Chromium over the DevTools Protocol',
-			hasImage: true,
+			hasImage: false,
 			img: '',
 			category: ''
 		},
