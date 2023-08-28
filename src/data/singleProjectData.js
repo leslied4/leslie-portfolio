@@ -159,7 +159,7 @@ export const singleProjectData = {
 			link: '',
 			description: 'PMS is a pharmacy management system built in contract with MedRx. Comprises of the POS. The application gives the opportunity for making sale with products from an inventory. Also gives the ability to initiate procurement and manage accounts. Among other things',
 			hasImage: false,
-			img: '',
+			img: pillsave,
 			category: ''
 		},
 		{
@@ -172,7 +172,7 @@ export const singleProjectData = {
 			link: 'https://peaceful-wisp-10a404.netlify.app/',
 			description: 'WerkDey is a template made as a concept for connecting handy men to users vice versa.',
 			hasImage: true,
-			img: '',
+			img: werk,
 			category: ''
 		},
 		{
@@ -223,8 +223,8 @@ export const singleProjectData = {
 			hasWebsite: true,
 			link: 'https://genuine-piroshki-6ac7f6.netlify.app/',
 			description: 'This is just a personal project to demonstrate changing the color and the length of a single SVG. To confirm that SVGs are more configurable that you may think',
-			hasImage: false,
-			img: '',
+			hasImage: true,
+			img: svg,
 			category: ''
 		},
 
