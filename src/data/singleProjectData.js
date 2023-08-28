@@ -4,6 +4,9 @@ import Mfinance from '../images/mfinance.PNG';
 import Lemon from '../images/lemon.PNG';
 import Onango from '../images/onango.PNG';
 import Firstline from '../images/firstline.PNG';
+import pillsave from '../images/pillsave.jpg';
+import svg from '../images/svg_sucasa.jpg';
+import werk from '../images/werk.jpg';
 // import Puppeteer from '../images/puppeteer.png';
 // Import icons
 import {
