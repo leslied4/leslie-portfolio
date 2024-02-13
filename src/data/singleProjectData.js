@@ -1,6 +1,7 @@
 // Import images
 import Flopay from '../images/flopay.PNG';
 import Mfinance from '../images/mfinance.PNG';
+import Pna from '../images/pnatravels.jpg';
 import Lemon from '../images/lemon.PNG';
 import Onango from '../images/onango.PNG';
 import Firstline from '../images/firstline.PNG';
@@ -21,149 +22,47 @@ export const singleProjectData = {
 	details: [
 		{
 			id: 1,
-			title: 'Mfinance',
+			title: 'PNA Services',
 			publishDate: 'Jul 26, 2021',
 			tags: 'Frontend / Backend',
-			client_name: 'Nfortics',
+			client_name: 'P & A Services',
 			hasWebsite: true,
-			link: 'https://mbackofficehq.com/',
-			description: 'A platform for banks to manage their customers and services. A server based application built with Ruby on Rails that creates a banking platform that allows financial service providers to manage their value added services including USSD and SMS.',
+			// link: 'https://mbackofficehq.com/',
+			link: 'https://pnatravels.com/',
+			description: 'This is a landing Page for P & A Services to showcase their work',
 			hasImage: true,
-			img: Mfinance,
+			img: Pna,
 			category: ''
 		},
 		{
 			id: 2,
-			title: 'Lemon',
-			publishDate: 'Jul 26, 2021',
-			tags: 'Frontend / Backend',
-			client_name: 'Nfortics',
-			hasWebsite: true,
-			link: 'https://lemon.nfortics.com/login',
-			description: 'Client server application. Vue JS as the frontend framework and Ruby on Rails for backend. This application is built to enable lenders (loan givers) manage every single aspect of the loan request and recipt flow. Track transactions, assign loan limits to customers and more, and more on the Lemon application',
-			hasImage: true,
-			img: Lemon,
-			category: ''
-		},
-		{
-			id: 3,
-			title: 'Flopay',
-			publishDate: 'Jul 26, 2021',
-			tags: 'Frontend / Backend',
-			client_name: 'Nfortics',
-			hasWebsite: true,
-			link: 'https://www.flopay.io/',
-			description: 'Flopay provides a payment API which can be added to any application to allow users integrate payment methods into their own applications. Front end Built with Vue JS and backend with Ruby on Rails',
-			hasImage: true,
-			img: Flopay,
-			category: ''
-		},
-		{
-			id: 4,
-			title: 'Onango',
-			publishDate: 'Jul 26, 2021',
-			tags: 'Frontend / Backend',
-			client_name: 'Nfortics',
-			hasWebsite: true,
-			link: 'https://www.onango.com/en',
-			description: 'Contribution to Onango Ghana, Nigeria and Ivory Coast loan services. Onango Ghana Shortcode: *408#',
-			hasImage: true,
-			img: Onango,
-			category: ''
-		},
-		{
-			id: 5,
-			title: 'Firstline24 HMS',
+			title: 'Firstline24 Health Management System',
 			publishDate: 'Jan 06, 2022',
 			tags: 'UI/UX / Frontend / Backend',
-			client_name: 'Nfortics',
+			client_name: 'Firstline.24',
 			hasWebsite: true,
-			link: 'https://firstline24.com/',
+			// link: 'https://firstline24.com/',
+			link: 'https://firstline24.com',
 			description: 'Health Management System for Firstline24. Integrates complex systems and services which contribute to proper management of health and compliance.',
 			hasImage: true,
 			img: Firstline,
 			category: ''
 		},
 		{
-			id: 6,
-			title: 'Billpoint',
-			publishDate: 'Jul 26, 2021',
-			tags: 'Frontend / Backend',
-			client_name: 'Nfortics',
-			hasWebsite: false,
-			link: '',
-			description: 'Financial Service Provider Management System. Built in Collaboration with Pensions Funds for loan services',
-			hasImage: false,
-			img: '',
-			category: ''
-		},
-		{
-			id: 7,
-			title: 'WAEC',
-			publishDate: 'Jul 26, 2021',
-			tags: 'Backend',
-			client_name: 'Nfortics',
-			hasWebsite: false,
-			link: '',
-			description: 'Contribution to WAEC USSD result checker *944#',
-			hasImage: false,
-			img: '',
-			category: ''
-		},
-		{
-			id: 8,
-			title: 'VAGO',
-			publishDate: 'Nov 01, 2022',
-			tags: 'Frontend / Backend',
-			client_name: 'Nfortics',
-			hasWebsite: false,
-			link: '',
-			description: 'Contribution to Vanguard Assurance (VAGO) loan services. From customer management to transaction tracking, among others. USSD application built with Ruby on Rails and front end with Vue JS. Register and Access VAGO services on MTN merchant mobile money shortcode *171#',
-			hasImage: false,
-			img: '',
-			category: ''
-		},
-		{
-			id: 9,
-			title: 'RiskIQ',
-			publishDate: 'Jul 26, 2021',
-			tags: 'Backend',
-			client_name: 'Nfortics',
-			hasWebsite: false,
-			link: '',
-			description: 'Credit scoring, Identity verification, Fraud detection & all-round risk profiling application. This is an API only application developed using Ruby and the Ruby on rails framework',
-			hasImage: false,
-			img: '',
-			category: ''
-		},
-		{
-			id: 10,
-			title: 'Loan Disburser Automater',
-			publishDate: 'Feb 02, 2022',
-			tags: 'Backend',
-			client_name: 'Nfortics',
-			hasWebsite: false,
-			link: '',
-			description: 'Loan Disbursement automator build with puppeteer. Puppeteer is a Node library which provides a high-level API to control headless Chrome or Chromium over the DevTools Protocol',
-			hasImage: false,
-			img: '',
-			category: ''
-		},
-		{
-			id: 11,
+			id: 3,
 			title: 'Pharmacy management System',
 			publishDate: 'April, 2023',
 			tags: 'Backend',
-			client_name: 'Firstline',
-			hasWebsite: false,
-			link: '',
+			client_name: 'Firstline.24',
+			hasWebsite: true,
+			link: 'https://pms.pill-save.com/',
 			description: 'PMS is a pharmacy management system built in contract with MedRx. Comprises of the POS. The application gives the opportunity for making sale with products from an inventory. Also gives the ability to initiate procurement and manage accounts. Among other things',
 			hasImage: false,
 			img: pillsave,
 			category: ''
 		},
 		{
-			id: 12,
+			id: 4,
 			title: 'Werk Dey',
 			publishDate: 'Nov, 2022',
 			tags: 'Frontend',
@@ -176,7 +75,7 @@ export const singleProjectData = {
 			category: ''
 		},
 		{
-			id: 13,
+			id: 5,
 			title: 'Puppeteer',
 			publishDate: 'March, 2023',
 			tags: 'Backend',
@@ -189,7 +88,7 @@ export const singleProjectData = {
 			category: ''
 		},
 		{
-			id: 14,
+			id: 6,
 			title: 'Docker',
 			publishDate: 'July, 2023',
 			tags: 'Backend',
@@ -202,7 +101,7 @@ export const singleProjectData = {
 			category: ''
 		},
 		{
-			id: 15,
+			id: 7,
 			title: 'PostgreSQL',
 			publishDate: 'August, 2023',
 			tags: 'Backend',
@@ -215,7 +114,7 @@ export const singleProjectData = {
 			category: ''
 		},
 		{
-			id: 15,
+			id: 8,
 			title: 'SVG Editor',
 			publishDate: 'August, 2023',
 			tags: 'Backend',
@@ -227,6 +126,128 @@ export const singleProjectData = {
 			img: svg,
 			category: ''
 		},
+		{
+			id: 9,
+			title: 'Mfinance',
+			publishDate: 'Jul 26, 2021',
+			tags: 'Frontend / Backend',
+			client_name: 'Nfortics',
+			hasWebsite: false,
+			// link: 'https://mbackofficehq.com/',
+			link: '',
+			description: 'A platform for banks to manage their customers and services. A server based application built with Ruby on Rails that creates a banking platform that allows financial service providers to manage their value added services including USSD and SMS. Product is Deprecated',
+			hasImage: true,
+			img: Mfinance,
+			category: ''
+		},
+		{
+			id: 10,
+			title: 'Lemon',
+			publishDate: 'Jul 26, 2021',
+			tags: 'Frontend / Backend',
+			client_name: 'Nfortics',
+			hasWebsite: false,
+			// link: 'https://lemon.nfortics.com/login',
+			link: '',
+			description: 'Client server application. Vue JS as the frontend framework and Ruby on Rails for backend. This application is built to enable lenders (loan givers) manage every single aspect of the loan request and recipt flow. Track transactions, assign loan limits to customers and more, and more on the Lemon application. Product is Deprecated',
+			hasImage: true,
+			img: Lemon,
+			category: ''
+		},
+		{
+			id: 11,
+			title: 'Flopay',
+			publishDate: 'Jul 26, 2021',
+			tags: 'Frontend / Backend',
+			client_name: 'Nfortics',
+			hasWebsite: false,
+			// link: 'https://www.flopay.io/',
+			link: '',
+			description: 'Flopay provides a payment API which can be added to any application to allow users integrate payment methods into their own applications. Front end Built with Vue JS and backend with Ruby on Rails. This Project is Depracated',
+			hasImage: true,
+			img: Flopay,
+			category: ''
+		},
+		{
+			id: 12,
+			title: 'Onango',
+			publishDate: 'Jul 26, 2021',
+			tags: 'Frontend / Backend',
+			client_name: 'Nfortics',
+			hasWebsite: false,
+			// link: 'https://www.onango.com/en',
+			link: '',
+			description: 'Contribution to Onango Ghana, Nigeria and Ivory Coast loan services. Onango Ghana Shortcode: *408#. This Project is Depracated',
+			hasImage: true,
+			img: Onango,
+			category: ''
+		},
+		{
+			id: 12,
+			title: 'Billpoint',
+			publishDate: 'Jul 26, 2021',
+			tags: 'Frontend / Backend',
+			client_name: 'Nfortics',
+			hasWebsite: false,
+			link: '',
+			description: 'Financial Service Provider Management System. Built in Collaboration with Pensions Funds for loan services',
+			hasImage: false,
+			img: '',
+			category: ''
+		},
+		{
+			id: 13,
+			title: 'WAEC',
+			publishDate: 'Jul 26, 2021',
+			tags: 'Backend',
+			client_name: 'Nfortics',
+			hasWebsite: false,
+			link: '',
+			description: 'Contribution to WAEC USSD result checker *944#. Service is Currently Down',
+			hasImage: false,
+			img: '',
+			category: ''
+		},
+		{
+			id: 14,
+			title: 'VAGO',
+			publishDate: 'Nov 01, 2022',
+			tags: 'Frontend / Backend',
+			client_name: 'Nfortics',
+			hasWebsite: false,
+			link: '',
+			description: 'Contribution to Vanguard Assurance (VAGO) loan services. From customer management to transaction tracking, among others. USSD application built with Ruby on Rails and front end with Vue JS. Register and Access VAGO services on MTN merchant mobile money shortcode *171#. The project is deprecated',
+			hasImage: false,
+			img: '',
+			category: ''
+		},
+		{
+			id: 15,
+			title: 'RiskIQ',
+			publishDate: 'Jul 26, 2021',
+			tags: 'Backend',
+			client_name: 'Nfortics',
+			hasWebsite: false,
+			link: '',
+			description: 'Credit scoring, Identity verification, Fraud detection & all-round risk profiling application. This is an API only application developed using Ruby and the Ruby on rails framework. Product is Deprecated',
+			hasImage: false,
+			img: '',
+			category: ''
+		},
+		{
+			id: 16,
+			title: 'Loan Disburser Automater',
+			publishDate: 'Feb 02, 2022',
+			tags: 'Backend',
+			client_name: 'Nfortics',
+			hasWebsite: false,
+			link: '',
+			description: 'Loan Disbursement automator build with puppeteer. Puppeteer is a Node library which provides a high-level API to control headless Chrome or Chromium over the DevTools Protocol. Product is Deprecated',
+			hasImage: false,
+			img: '',
+			category: ''
+		},
+		
 
 
 	],
